@@ -1,5 +1,5 @@
 from Bio.Seq import Seq
-my_seq = Seq("MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH")
+my_seq = Seq(str(input('Enter the FASTA Sequence: ')))
 print('The total length of the sequence: ' , len(my_seq))
 g = my_seq.count("G")
 print('Glycine:', g)
