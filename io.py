@@ -1,6 +1,6 @@
 from Bio.Seq import Seq
 my_seq = Seq("MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH")
-print(len(my_seq))
+print('The total length of the sequence: ' , len(my_seq))
 g = my_seq.count("G")
 print('Glycine:', g)
 m = my_seq.count("M")
